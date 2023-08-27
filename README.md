@@ -1,7 +1,10 @@
-# crux_assignment
+# csv-analyzer_assignment
+
 A web application that allows users to upload a CSV file containing data, interact
 with a chat-like interface, and utilize the OpenRouter API for text analysis.
+
 # Tech Stack
+
 - Django Rest Framework (for rest api server)
 - React (for frontend)
 
@@ -12,13 +15,12 @@ with a chat-like interface, and utilize the OpenRouter API for text analysis.
 3. Code editor -> VS code
 4. Python version -> 3.11
 
-# Code Deployment 
-
+# Code Deployment
 
 1. clone project.
 
 ```
-git clone https://github.com/starkkumarkk1611/crux_assignment.git
+git clone https://github.com/starkkumarkk1611/csv-analyzer_assignment.git
 ```
 
 2. Navigate to frontend folder.
@@ -63,14 +65,15 @@ source .venv/Scripts/activate
 ```
 pip install -r requirements.txt
 ```
-13. Navigate to backend/crux and run database migration 
+
+13. Navigate to backend/csv-analyzer and run database migration
 
 ```
 python manage.py migrate
 ```
 
-13. To  start development server. (run command in 'backend/crux' dir.)
+13. To start development server. (run command in 'backend/csv-analyzer' dir.)
 
 ```
-python manange.py runserver 
+python manange.py runserver
 ```
